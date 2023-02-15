@@ -1,0 +1,73 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url(https://www.fifplay.com/img/public/fifa-19-wallpaper-uefa-champions-league.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+table {
+  margin: auto;
+  border: 2px solid white;
+  border-collapse: collapse;
+  background-color: #0d0d0d;
+  opacity: 0.8;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+  padding: 7px;
+}
+
+button {
+  color: #f6f6f6;
+  cursor: center;
+}
+
+input {
+  width: 200px;
+  height: 33px;
+  margin: 5px;
+}
+
+.form-wrapper {
+  margin: 30px auto;
+  text-align: center
+    
+}
+
+.form-wrapper button {
+  background-color: #002351;
+  width: 180px;
+  height: 40px;
+  margin: 5px;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.win {
+  background-color: #00a141;
+}
+
+.tie {
+  background-color: #f54f29;
+}
+
+.defeat {
+  background-color: #8c0808;
+}
