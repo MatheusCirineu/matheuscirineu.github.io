@@ -1,3 +1,2 @@
 # Pontos de jogos
-Desenvolvido na imersão dev da Alura
- 
+Esse meu projeot foi desenvolvido na Alura
