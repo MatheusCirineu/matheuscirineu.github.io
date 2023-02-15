@@ -1,1 +1,1 @@
-#Pontos de jogos
+# Pontos
