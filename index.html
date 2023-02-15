@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de pontuação</h1>
+
+  <div class="form-wrapper">
+    <input id="nomeDoJogador" name="nomeDoJogador" placeholder="Digite o nome do jogador">
+    <button onClick="adicionarJogador()">Adicionar jogador</button>
+  <button onClick="removerJogador()">Remover Jogador</button>
+    <button onClick="finalizarJogo()">Definir Vencedor </button>
+    <button onClick="reset()">Reset</button>
+  </p>
+   
+    <div id="finalizarJogo"></div>
+  </p>
+  <div id="finalizarJogo"></div>
+    </p>
+  </div>
+
+  <table style="width: 90%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Jogos</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="4">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="listaJogadores">
+    </tbody>
+  </table>
+</body>
+
+</html>
